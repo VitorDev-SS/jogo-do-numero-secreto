@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let listaDeNumerosSorteados = [];
 let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
@@ -71,3 +72,16 @@ function reinciarJogo() {
     mensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true);
 }
+=======
+let titulo = document.querySelector('h1');
+let paragrafo = document.querySelector('p');
+
+function exibirTextoNaTela(tag, campo) {
+    titulo.innerHTML = tag;
+    paragrafo.innerHTML = campo;
+}
+
+exibirTextoNaTela('Bem-Vindo ao Site!', 'Escolha um Número de 1 a 10:');
+
+let chute = documento.querySelector('input').value;
+>>>>>>> 6a31c48 (inicio do programa)
